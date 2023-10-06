@@ -33,7 +33,7 @@ for svc in dev.services:
     print (str(svc))
 #
 try:
-    testService = dev.getServiceByUUID(UUID(0xfff0))
+    testService = dev.getServiceByUUID(UUID(0x1010))
     for ch in testService.getCharacteristics():
         print (str(ch))
     #  
